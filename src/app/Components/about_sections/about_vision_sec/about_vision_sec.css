@@ -1,0 +1,191 @@
+/* Global CSS Start*/
+
+
+.section_hd2 {
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 53.5px;
+}
+
+/* Global CSS End*/
+
+
+
+.about_vision_sec {
+    background-color: #1F1F32;
+    padding: 120px 0 105px 0;
+}
+.about_vision_sec h2 , .about_vision_sec h3 , .about_vision_sec p{
+    color: #fff;
+}
+.purpose_dv {
+    margin-bottom: 94px;
+}
+.purpose_dv , .vision_dv{
+    display: flex;
+    gap: 74px;
+    align-items: flex-start;
+}
+.purpose_dv img , .vision_dv img {
+    margin-top: 8px;
+}
+.purpose_dv h3 ,.vision_dv h3 {
+    font-size: 38px;
+    line-height: 42px;
+    font-weight: 300;
+    margin-bottom: 22px;
+}
+
+.purpose_dv p , .vision_dv p{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 500; 
+}
+
+.frst_row {
+    margin-bottom: 100px;
+}
+
+
+.inner_value_dv h2{
+    margin-bottom: 21px;
+}
+.inner_value_dv p {
+    color: #757575 !important;
+}
+.inner_value_dv1 {
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+}
+.vlu_bx {
+    border: 1px solid rgb(255 255 255 / 30%);
+    padding: 55px 37px 30px 30px;
+    width: 255px;
+}
+.vlu_bx h5 {
+    color: #fff;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 500;
+    margin-bottom: 15px;
+
+}
+.vlu_bx p{
+    color:#757575;
+}
+
+
+
+
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1280px) {
+}
+@media only screen and (min-device-width: 1281px) and (max-device-width: 1369px) {
+}
+@media only screen and (min-device-width: 1370px) and (max-device-width: 1440px) {
+}
+@media only screen and (min-device-width: 1441px) and (max-device-width: 1540px) {
+}
+@media only screen and (min-device-width: 1541px) and (max-device-width: 1600px) {
+}
+@media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+    .about_vision_sec  {
+        padding: 60px 0px;
+    }
+    .purpose_dv, .vision_dv {
+        gap: 50px;
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+
+    .about_vision_sec  {
+        padding: 60px 0px;
+    }
+
+    .inner_vision_dv {
+        margin-bottom: 50px;
+    }
+    .purpose_dv img, .vision_dv img {
+        width: 90px;
+    }
+    .purpose_dv, .vision_dv {
+        gap: 30px;
+    }
+    .purpose_dv h3, .vision_dv h3 {
+        font-size: 30px;
+        margin-bottom: 7px;
+    }
+    .purpose_dv p, .vision_dv p {
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 300;
+    }
+    .purpose_dv {
+        margin-bottom: 30px;
+    }
+    .frst_row {
+        margin-bottom: 60px;
+    }
+    .vlu_bx {
+        padding: 25px;
+        width: 100%;
+    }
+    .vlu_bx p {
+        margin-bottom: 0px;
+    }
+    .vlu_bx h5 {
+        margin-bottom: 8px;
+    }
+    .inner_value_dv {
+        margin-bottom: 30px;
+    }
+    
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+
+    .about_vision_sec  {
+        padding: 50px 0px;
+    }
+    .purpose_dv, .vision_dv {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .inner_vision_dv {
+        margin-bottom: 30px;
+    }
+    .purpose_dv img, .vision_dv img {
+        width: 65px;
+    }
+    .purpose_dv h3, .vision_dv h3 {
+        font-size: 30px;
+        margin-bottom: 7px;
+    }
+    .purpose_dv p, .vision_dv p {
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 300;
+    }
+    .purpose_dv {
+        margin-bottom: 15px;
+    }
+    .frst_row {
+        margin-bottom: 60px;
+    }
+    .inner_value_dv1 {
+        flex-direction: column;
+    }
+    .vlu_bx {
+        padding: 25px;
+        width: 100%;
+    }
+    .vlu_bx p {
+        margin-bottom: 0px;
+    }
+    .vlu_bx h5 {
+        margin-bottom: 8px;
+    }
+    .inner_value_dv {
+        margin-bottom: 30px;
+    }
+}

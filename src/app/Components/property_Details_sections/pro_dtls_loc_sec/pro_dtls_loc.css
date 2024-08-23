@@ -1,0 +1,94 @@
+.pro_dtls_loc_Main{
+    background-color: #521B26;
+    padding-bottom: 75px;
+    color: white;
+    max-height: 690px;
+    height: 100%;
+}
+
+.pro_dtl_loc_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 29px;
+}
+
+.pro_dtl_loc_header .mapBtn_link{
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    max-width: 165px;
+    width: 100%;
+}
+
+.mapBtn_link::after{
+    content: '';
+    width: 20px;
+    height: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url('../../../../../public/pro_dtls_page/rigthArrow.png');
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
+.pro_dtls_locParent{
+    height: 450px;
+}
+.pro_dtls_locParent iframe{
+    height: 100%;
+    width: 100%;
+}
+
+
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1280px) {
+}
+@media only screen and (min-device-width: 1281px) and (max-device-width: 1369px) {
+}
+@media only screen and (min-device-width: 1370px) and (max-device-width: 1440px) {
+}
+@media only screen and (min-device-width: 1441px) and (max-device-width: 1540px) {
+}
+@media only screen and (min-device-width: 1541px) and (max-device-width: 1600px) {
+}
+@media only screen and (min-device-width: 992px) and (max-device-width: 1199px)  {
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+
+    .pro_dtl_loc_header  {
+        padding-top: 40px;
+    }
+    .pro_dtls_locParent{
+        height: 300px;
+    }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+
+    .pro_dtls_loc_Main{
+        padding-bottom: 60px;
+    }
+
+   .pro_dtls_loc_Main .pro_dtl_loc_header{
+        padding-top: 50px;
+   }
+
+   .mapBtn_link::after {
+        content: '';
+        width: 15px;
+        height: 14px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-image: url(/_next/static/media/rigthArrow.65fcc57e.png);
+        position: absolute;
+        right: auto;
+        top: 4px;
+        left: 147px;
+    }
+
+
+    
+}

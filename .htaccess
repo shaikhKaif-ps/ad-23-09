@@ -1,0 +1,65 @@
+
+# <IfModule mod_rewrite.c>
+#   RewriteEngine On
+#   RewriteBase /
+
+#   # Redirect /about to /about.html
+#   RewriteRule ^about$ /about.html [L]
+#   RewriteRule ^property$ /property.html [L]
+#   RewriteRule ^properties$ /properties.html [L]
+  
+
+
+
+#   RewriteRule ^properties/riverwalk-hotel$ /properties/riverwalk-hotel.html [L]
+#   RewriteRule ^properties/esteem-shara-hotel$ /properties/esteem-shara-hotel.html [L]
+#   RewriteRule ^properties/stregis$ /properties/stregis.html [L]
+#   RewriteRule ^properties/marriot-marquis$ /properties/marriot-marquis.html [L]
+#   RewriteRule ^properties/delhi-areocity-hotel$ /properties/delhi-areocity-hotel.html [L]
+#   RewriteRule ^properties/grand-hyatt$ /properties/grand-hyaat.html [L]
+#   RewriteRule ^properties/worli-hotel$ /properties/worli-hotel.html [L]
+#   RewriteRule ^properties/hilton-international$ /properties/hilton-international.html [L]
+  
+
+#   RewriteRule ^properties/news-press-release$ /news-press-release.html [L]
+#   RewriteRule ^valor-estate-to-demerge-hospitality-business$ /valor-estate-to-demerge-hospitality-business.html [L]
+
+  
+#   RewriteRule ^index\.html$ - [L]
+#   RewriteCond %{REQUEST_FILENAME} !-f
+#   RewriteCond %{REQUEST_FILENAME} !-d
+#   RewriteCond %{REQUEST_FILENAME} !-l
+#   RewriteRule . /index.html [L]
+# </IfModule> 
+
+
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Redirect /about to /about.html
+  RewriteRule ^about$ /about.html [L]
+#  RewriteRule ^property$ /property.html [L]
+#  RewriteRule ^properties$ /properties.html [L]
+  
+  # Specific property redirects
+  RewriteRule ^properties/riverwalk-hotel$ /properties/riverwalk-hotel.html [L]
+  RewriteRule ^properties/esteem-shara-hotel$ /properties/esteem-shara-hotel.html [L]
+  RewriteRule ^properties/stregis$ /properties/stregis.html [L]
+  RewriteRule ^properties/marriot-marquis$ /properties/marriot-marquis.html [L]
+  RewriteRule ^properties/delhi-areocity-hotel$ /properties/delhi-areocity-hotel.html [L]
+  RewriteRule ^properties/grand-hyatt$ /properties/grand-hyatt.html [L] # Fixed typo here
+  RewriteRule ^properties/worli-hotel$ /properties/worli-hotel.html [L]
+  RewriteRule ^properties/hilton-international$ /properties/hilton-international.html [L]
+  
+  # Other redirects
+  RewriteRule ^properties/news-press-release$ /news-press-release.html [L]
+  RewriteRule ^valor-estate-to-demerge-hospitality-business$ /valor-estate-to-demerge-hospitality-business.html [L]
+
+  # Serve index.html for non-existent files and directories
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-l
+  RewriteRule . /index.html [L]
+</IfModule>

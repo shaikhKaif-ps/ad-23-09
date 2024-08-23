@@ -1,0 +1,411 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html.lenis,
+html.lenis body{
+  height: auto;
+}
+
+.lenis.lenis-smooth{
+  scroll-behavior: auto ;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent]{
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped{
+  overflow: hidden;
+} 
+
+.lenis.lenis-smooth iframe{
+  pointer-events: none;
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+
+    --font-museo: "MuseoSans", sans-serif;
+    --font-brandon: "BrandonGrotesque", sans-serif;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  a,
+  li {
+    font-family: "museo-sans", sans-serif;
+  }
+
+  /* Global CSS Start*/
+  h1,
+  h2,
+  h3,
+  h4,
+  p {
+    font-family: "museo-sans", sans-serif;
+  }
+  a {
+    text-decoration: none !important;
+  }
+  .section_hd {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 53.5px;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #757575;
+  }
+  .section_hd span {
+    color: #be8233;
+  }
+  /* Global CSS End*/
+  .pro_dtl_medi_sld .property_video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #757575;
+  }
+
+  .font-museo h1 {
+    font-size: 60px;
+    font-weight: 400 !important;
+    line-height: 71.5px;
+  }
+  .font-museo h2 {
+    font-size: 50px;
+    font-weight: 400 !important;
+    line-height: 53.5px;
+  }
+  .font-museo h3 {
+    font-size: 32px;
+    font-weight: 200 !important;
+    line-height: 41.5px;
+  }
+
+  .font-museo h4 {
+    font-size: 16px;
+    font-weight: 400 !important;
+    line-height: 53.5px;
+  }
+
+  .font-brandon-regular h5 {
+    font-size: 45px;
+    font-weight: 400 !important;
+    line-height: 53.5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .font-brandon-bd h6 {
+  }
+
+  .font-brandon-regular h3 {
+    font-size: 37px;
+    font-weight: 400 !important;
+    line-height: 44.5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .font-museo p {
+    font-size: 16px;
+    font-weight: 400 !important;
+    line-height: 22px;
+  }
+  .bg-clr {
+    background-color: #521b26;
+  }
+  .txt-clr {
+    color: #be8233;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+}
+
+.cstm-cont-wdt {
+  max-width: 1260px;
+  width: 100%;
+  margin: auto !important;
+  padding: 0px;
+}
+
+/* PopUp Start */
+.leaderPopup {
+  display: flex;
+}
+
+.popupContentBox {
+  padding: 50px;
+}
+
+.leaderPopupImg {
+  /* height: 100%; */
+  object-fit: cover;
+}
+
+.popupContent {
+  font-size: 14px;
+  margin: 25px 0 35px 0px;
+}
+
+.popUpName {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.popupIcon {
+  margin-top: 10px;
+  font-size: 44px;
+}
+
+.popupBtn {
+  position: absolute;
+  top: 15px;
+  bottom: auto;
+  right: 15px;
+}
+
+.popupLinked {
+  width: 40%;
+}
+
+.closePopBth {
+  font-size: 39px;
+}
+
+.prSpotHeading {
+  font-size: 40px;
+}
+
+
+/* ------------------------- */
+/* .skeleton{
+  background-color: #eff4fc;
+  height: 590px;
+  width: 410px;
+
+}
+
+.skeleton::before{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #e0e0e0 0%, #f0f0f0 50%, #e0e0e0 100%);
+  background-size: auto ;
+  border: 1px solid reds;
+  animation: shimmer 2s infinite linear;
+} */
+
+
+
+
+/* ----------------- */
+.bounding{
+  width: fit-content;
+
+  overflow: hidden;
+}
+
+/* .bounding > *{
+  transform: translateY(100px);
+} */
+
+
+
+
+
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  .cstm-cont-wdt {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    margin: auto !important;
+  }
+  .font-museo h2 {
+    font-size: 35px;
+    line-height: 38px;
+  }
+  .font-museo h3 {
+    font-size: 22px;
+    line-height: 35px;
+  }
+  .mob_padding {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .section_hd {
+    font-size: 35px;
+    line-height: 44px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .leaderPopup {
+    background-color: lightblue;
+    display: block;
+  }
+
+  .leaderPopupImg {
+    display: none;
+  }
+
+  .popUpName {
+    font-size: 26px;
+  }
+
+  .popupContentBox {
+    padding: 20px;
+  }
+  .popupBtn {
+    position: absolute;
+    top: 10px;
+    bottom: auto;
+    right: 10px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+  .cstm-cont-wdt {
+    /* padding-left: 40px;
+      padding-right: 40px; */
+    width: 100%;
+    margin: auto !important;
+  }
+  .font-museo h2 {
+    font-size: 43px;
+    line-height: 45px;
+  }
+  .tab_padding {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+
+  .section_hd {
+    font-size: 40px;
+    line-height: 44px;
+  }
+}
+@media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+  .cstm-cont-wdt {
+    /* padding-left: 40px;
+      padding-right: 40px; */
+    width: 100%;
+    margin: auto !important;
+  }
+  .section_hd {
+    font-size: 43px;
+    line-height: 47px;
+  }
+  .tab_padding {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+}
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1280px) {
+  .cstm-cont-wdt {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .leaderPopup {
+    display: flex;
+  }
+}
+
+@media only screen and (min-device-width: 1281px) and (max-device-width: 1369px) {
+  .leaderPopup {
+    display: flex;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* .yo{
+  border: 1px solid yellow;
+}*/
+.b{
+  border: 2px solid red;
+} 

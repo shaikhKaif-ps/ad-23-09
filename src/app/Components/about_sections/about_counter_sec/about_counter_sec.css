@@ -1,0 +1,329 @@
+
+.about_counter_sec .white_col {
+    float: left;
+    width: 17%;
+    padding: 0;
+}
+.about_counter_sec .bg_col {
+    float: left;
+    width:83%;
+    padding: 0;
+}
+.counter_bg {
+    background-image: url('../../../../../public/about_page/about_counter_sec/about_counter_bg.png');
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.inner_counter_col2 {
+    padding-top: 100px;
+    
+    float: left;
+}
+.inner_counter_col2 h3{
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 44px;
+    color: #0C0C1D;
+    max-width: 500px;
+    width: 100%;
+    float: left;
+    margin-bottom: 76px;
+}
+
+.about_counter_dv {
+    float: left;
+    width: 100%;
+    padding: 52px 56px;
+    background: #521B26;
+    /* display: flex; */
+    padding: 25px 0px;
+    /* justify-content: space-between; */
+   
+}
+
+.counter_bx {
+    width: 33%;
+    float: left;
+    gap: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 145px;
+    position: relative;
+    /* padding-right: 15px; */
+}
+
+/* -- kaif */
+.counter_bxLast {
+    width: 33%;
+    float: left;
+    gap: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 145px;
+    position: relative;
+}
+
+
+
+
+.cb_3 , .cb_4 {
+    /* border-top: 1px solid #673740; */
+    border: none;
+} 
+
+
+.cb_1::after  {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 1px;
+    height: 93px;
+    background: #673740;
+}
+
+.cb_2::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 1px;
+    height: 93px;
+    background: #673740;
+    /* display: none; */
+}
+
+
+
+
+
+p.c_no {
+    font-size: 60px;
+    line-height: 65px;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: #fff;
+}
+.c_desc {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: #fff; 
+}
+
+
+
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1280px) {
+    .about_counter_sec .white_col {
+        width: 5%;
+    }
+    .about_counter_sec .bg_col {
+        width:95%;
+    }
+}
+@media only screen and (min-device-width: 1281px) and (max-device-width: 1369px) {
+    .about_counter_sec .white_col {
+        width: 4%;
+    }
+    .about_counter_sec .bg_col {
+        width:96%;
+    }
+}
+@media only screen and (min-device-width: 1370px) and (max-device-width: 1440px) {
+    .about_counter_sec .white_col {
+        width: 6.5%;
+    }
+    .about_counter_sec .bg_col {
+        width:93.5%;
+    }
+}
+@media only screen and (min-device-width: 1441px) and (max-device-width: 1540px) {
+    .about_counter_sec .white_col {
+        width: 9%;
+    }
+    .about_counter_sec .bg_col {
+        width:91%;
+    }
+}
+@media only screen and (min-device-width: 1541px) and (max-device-width: 1600px) {
+    .about_counter_sec .white_col {
+        width: 10.4%;
+    }
+    .about_counter_sec .bg_col {
+        width: 89.6%;
+    }
+}
+@media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+
+    .about_counter_sec .white_col {
+        width: 5%;
+    }
+    .about_counter_sec .bg_col {
+        width: 95%;
+    }
+    .inner_counter_col2 {
+        padding-top: 70px;
+    }
+    .inner_counter_col2 h3 {
+        font-size: 31px;
+        line-height: 41px;
+        margin-bottom: 60px;
+        padding-right: 30px;
+    }
+    .about_counter_dv {
+        padding: 6px;
+    }
+    .counter_bx {
+        gap: 15px;
+        height: 140px;
+    }
+    .c_icon {
+        width: 45px;
+    }
+    p.c_no {
+        font-size: 41px;
+        line-height: 45px;
+    }
+    .c_desc {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+    .about_counter_dv{
+        padding: 0 !important;
+    }
+
+    .about_counter_sec .white_col {
+        width: 5.5%;
+    }
+    .about_counter_sec .bg_col {
+        width: 94.5%;
+    }
+    .inner_counter_col2 {
+        padding-top: 60px;
+    }
+    .inner_counter_col2 h3 {
+        font-size: 28px;
+        line-height: 39px;
+        margin-bottom: 50px;
+        padding-right: 20px;
+    }
+
+    .counter_bx {
+        gap: 15px;
+        height: 140px;
+    }
+    .c_icon {
+        width: 30px;
+    }
+    p.c_no {
+        font-size: 35px;
+        line-height: 37px;
+    }
+    .c_desc {
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .counter_bx{
+        gap: 12px;
+    }
+    .counter_bxLast{
+        gap: 15px !important;
+    }
+
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+    .cb_3 , .cb_4 {
+        border-top: 1px solid #673740;
+        /* border: none; */
+    } 
+
+    .cb_2::after{
+        content: '';
+        position: absolute;
+        right: 0;
+        width: 1px;
+        height: 93px;
+        background: #673740;
+        display: none;
+    }
+
+    .about_counter_dv {
+        float: left;
+        width: 100%;
+        /* padding: 52px 56px; */
+        background: #521B26;
+        /* display: flex; */
+        /* padding: 35px 22px; */
+        /* justify-content: space-between; */
+       
+    }
+    
+    .counter_bx {
+        width: 50%;
+        float: left;
+        gap: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 145px;
+        position: relative;
+        /* padding-right: 15px; */
+    }
+    
+    /* -- kaif */
+    .counter_bxLast {
+        width: 100%;
+        float: left;
+        gap: 28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 145px;
+        position: relative;
+    }
+    
+
+    .about_counter_sec .white_col {
+        display: none;
+    }
+    .about_counter_sec  .bg_col{
+        width:100%;
+        padding: 0;
+    }
+    .inner_counter_col2 {
+        padding-top: 50px;
+    }
+    .inner_counter_col2 h3 { 
+        font-size: 24px;
+        line-height: 32px;
+        padding: 0 20px;
+        margin-bottom: 50px;
+    }
+    
+    /* .about_counter_dv {
+        padding:20px;
+    } */
+    .counter_bx {
+        gap: 15px;
+        height: 140px;
+    }
+    .c_icon {
+        width: 35px;
+    }
+    p.c_no {
+        font-size: 40px;
+        line-height: 44px;
+    }
+    .c_desc {
+        font-size: 16px;
+        line-height: 22px;
+        width: 65px;
+    }
+}
+
+

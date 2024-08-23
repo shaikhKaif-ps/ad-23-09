@@ -1,0 +1,221 @@
+.b{border: 1px solid red;}
+
+.newsletter-section .swiper{
+    padding-top: 75px !important;
+    padding-bottom: 100px;
+    margin-top: -50px;
+}
+.newsletter-section .pipeline_section  {
+  position: relative;
+}
+.newsletter-section ul#pipeline_tabs {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+
+.Newshd {
+  margin-bottom: 30px;
+}
+.mySwiper2 .swiper-slide {
+  margin-right: 10px;
+}
+
+.newsletter-section{
+  padding-top: 100px;
+}
+.rd-mr-a{
+  margin-right: 20px !important;
+}
+.news-container {
+  background-color: #f4f4f4;
+  padding: 25px;
+  height: 490px;
+}
+p.date-cstm {
+  margin-top: 22px;
+  background-color: #FFF;
+  padding: 10px 25px;
+  color: #757575;
+  width: fit-content;
+}
+h3.para-sld {
+  /* padding-top: 30px !important; */
+  font-size: 22px !important;
+  line-height: 33px !important;
+  font-weight: 400 !important;
+  /* padding-bottom: 25px; */
+  color: #000;
+}
+.news-ltr-a{
+  color: #0c0c1d94 !important;
+}
+.new-btn{
+ 
+  color: rgb(255 255 255 / 40%);
+  background-color: red;
+}
+
+
+.new-btn > *{
+  transform: translateY(50px);
+  transition: transform 0.3s ease;
+}
+
+
+
+.newsletter-section .swiper-button-next {
+  background-image: url('../../../../../public/NewsLetter_img/carousel-arrow-rg.svg');
+  background-size: cover;
+  width: 50px; 
+  height: 50px; 
+  position: absolute;
+  top: 22px;
+}
+.newsletter-section .swiper-button-next::after {
+  content: '';
+}
+.newsletter-section .swiper-button-prev {
+  background-image: url('../../../../../public/NewsLetter_img/carousel-arrow-lft.svg');
+  background-size: cover;
+  width: 50px; 
+  height: 50px; 
+  position: absolute;
+  right: 75px;
+  left: auto;
+  top: 22px;
+}
+.newsletter-section .swiper-button-prev::after {
+  content: '';
+}
+.newsletter-section{
+  padding-top: 90px;
+}
+.news-img img{
+  width: 100%;
+}
+
+.section-contain{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content: space-between;
+}
+
+#newsSkeleton{
+  background-color: #ffffff;
+  /* background-color: #0e2243; */
+  /* height: 200px;
+  width: 410px; */
+  width: 334px;
+  height: 489px;
+
+}
+
+#newsSkeleton::before{
+  content: '';
+  display: block;
+  width: 334px;
+  height: 489px;
+  background: linear-gradient(to right, #e0e0e0 0%, #f0f0f0 50%, #e0e0e0 100%);
+  /* background-size: auto ; */
+  border: 1px solid reds;
+  animation: shimmer 6s infinite linear;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  .Newshd {
+    margin-bottom: 10px;
+  }
+  .newsletter-section {
+    padding-top: 50px;
+  }
+  .newsletter-section .swiper{
+    padding-top: 0px !important;
+    margin-top: 0;
+  }
+  .newsletter-section .swiper-button-next {
+    top: auto;
+    left: 20%;
+    bottom: 4%;
+
+  }
+  .newsletter-section .swiper-button-prev {
+    right: auto;
+    left: auto;
+    top: auto;
+    bottom: 4%;
+  }
+  .newsletter-section ul#pipeline_tabs {
+    position: relative !important;
+  }
+   .news-container{
+    height: 490px;
+  }
+  
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+  .newsletter-section{
+    padding: 50px 40px !important;
+  }
+
+  .newsletter-section .Newshd{
+    margin-bottom: 0 !important;
+  }
+
+  .newsletter-section ul#pipeline_tabs {
+    position: relative !important;
+  }
+
+  
+  .newsletter-section .swiper{
+    padding-bottom: 0;
+  }
+
+  .newsletter-section .tab-section{
+    padding-top: 0;
+  }
+
+}
+
+
+
+@media only screen and (min-device-width: 992px) and (max-device-width: 1024px) {
+  .newsletter-section {
+    padding: 60px 40px !important;
+  }
+  .newsletter-section .tab-section{
+    padding-top: 0 !important;
+  }
+  .Newshd{
+    margin-bottom: 0 !important;
+  }
+  .newsletter-section .tab-section{
+    padding-top: 0 !important;
+  }
+  .newsletter-section .newsletter-slider .tab-section ul#pipeline_tabs {
+    position: relative !important;
+    padding-top: 0 !important;
+  }
+
+  .newsletter-section .swiper{
+    padding-bottom: 0px !important;
+    padding-top: 60px !important;
+  }
+
+
+  
+}
+
+
+

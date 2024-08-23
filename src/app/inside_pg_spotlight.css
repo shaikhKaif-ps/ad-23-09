@@ -1,0 +1,154 @@
+/* Global CSS Start*/
+.no_margin {
+    margin:0 !important;
+}
+.no_padding {
+    padding:0 !important;
+}
+
+/* Global CSS End*/
+
+
+.press_inside_sec {
+    padding: 100px 0px;
+}
+
+.inside_spotlight {
+    height: 567px;
+    position: relative;
+    width: 100%;
+}
+.inside_spotlight .row , .inside_spotlight .in_spot_col1 , .inside_spotlight .in_spot_col2 , .inner_spot_col2 , .about_spot_img {
+    height:100%;
+}
+.in_spot_col1  {
+    background-color: #361218;
+    display: flex;
+    align-items: center;
+    padding-left: 94px !important;
+}
+.inner_spot_col1 {
+    margin-top: 100px;
+}
+.inner_spot_col1 h1{
+    font-size: 40px;
+    font-weight:400;
+    text-transform: uppercase;
+    color: #fff;
+  
+}
+.inner_spot_col1 p {
+    width: 100%;
+    max-width: 368px;
+    font-size: 15px;
+    color: rgb(255 255 255 / 40%);
+    font-family: "museo-sans", sans-serif;
+    font-weight: 300;
+    margin-bottom: 0;
+    margin-top: 13px;
+}
+
+.inner_spot_col2 img.about_spot_img {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+@media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+
+    .in_spot_col1 {
+        padding-left: 50px !important;
+        padding-right: 30px !important;
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+
+    .inside_spotlight {
+        height: 400px;
+    }
+    .inner_spot_col1 {
+        margin-top: 0;
+    }
+    .inner_spot_col1 h1 {
+        font-size: 40px;
+        line-height: 42px;
+    }
+    .in_spot_col1 {
+        padding-left: 40px !important;
+        padding-right: 30px !important;
+    }
+
+    .press_inside_sec {
+        padding: 50px 0px;
+    }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+
+    /* Global CSS Start*/
+    .mob_padding {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    /* Global CSS End*/
+    
+
+    .inside_spotlight {
+        height: 500px;
+    }
+    .in_spot_col1 {
+        order: 2;
+        height:50% !important;
+    }
+    .in_spot_col2 {
+        order: 1;
+        height:50% !important;
+    }
+    .inner_spot_col1 {
+        margin-top: 0px;
+    }
+    .inner_spot_col1 h1 {
+        font-size: 31px;
+    }
+    .inner_spot_col1 p {
+        line-height: 21px;
+    }
+
+
+    .press_inside_sec {
+        padding: 50px 0px;
+    }
+
+}
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1280px) {
+    .in_spot_col1{
+        padding-left: 60px !important;
+    }
+}
+@media only screen and (min-device-width: 1281px) and (max-device-width: 1369px) {
+    .in_spot_col1{
+        padding-left: 53px !important;
+        /* border: 1px solid yellow; */
+    }
+}
+@media only screen and (min-device-width: 1370px) and (max-device-width: 1440px) {
+}
+@media only screen and (min-device-width: 1441px) and (max-device-width: 1540px) {
+    .about_spotlight .in_spot_col1 {
+        padding-left: 136px !important;
+    }
+}
+@media only screen and (min-device-width: 1541px) and (max-device-width: 1600px) {
+    .about_spotlight .in_spot_col1{
+        padding-left: 174px !important;
+    }
+
+
+   
+}
+@media only screen and (min-device-width: 1601px) and (max-device-width: 1920px) {
+    .about_spotlight .in_spot_col1{
+        padding-left:335px !important;
+    }
+   
+}

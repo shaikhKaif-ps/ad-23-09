@@ -1,0 +1,1 @@
+.parent{margin-top:4rem}.textContainer{margin:0 auto;width:1280px;display:flex;border:1px solid red;height:auto}h1{font-size:80px}p.textContainer{background-color:blue;z-index:999}.bounding{width:fit-content;background-color:red;overflow:hidden}.bounding>*{transform:translateY(100px)}

@@ -1,0 +1,140 @@
+
+
+.react-responsive-modal-modal{
+    padding: 0;
+    max-width: 900px;
+    width:100%;
+    margin: 0 auto;
+}
+.team_dv{
+    cursor: pointer;
+}
+.team_popup{
+    display: flex;
+}
+.team_popup .team_img {
+    object-fit: cover;
+    width: 100%;
+}
+.team_popup_inner{
+    padding:50px 40px;
+}
+.team_popup_inner h3{
+    font-size: 30px;
+    color: #BE8233;
+}
+.team_popup_inner h4{
+    font-size: 18px;
+    margin-top: 9px;
+    font-weight: 300;
+    line-height: 22px;
+}
+.team_popup_para p{
+    white-space: pre-line;
+    font-size: 16px;
+    margin:25px 0;
+    font-weight: 300;
+    line-height: 29px;
+    overflow: auto;
+    height: 250px;
+    padding-right: 20px;
+}
+.team_popup_para p::-webkit-scrollbar{
+    width: 2px;
+}
+
+.team_popup_para p::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+.team_popup_para p::-webkit-scrollbar-thumb {
+    background: #BE8233; 
+    border-radius: 10px;
+}
+
+.linkedin_box{
+    background: #efefef;
+    border-radius: 50px;
+    display: flex;
+    height: 44px;
+    justify-content: center;
+    margin-top: 15px;
+    width: 44px;
+}
+
+
+.react-responsive-modal-container{
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    background: rgba(49, 61, 71, .8);
+   
+}
+
+
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1280px) {
+
+}
+@media only screen and (min-device-width: 1281px) and (max-device-width: 1369px) {
+
+    .team_popup_inner{
+        padding: 30px 20px;
+    }
+}
+@media only screen and (min-device-width: 1370px) and (max-device-width: 1440px) {
+}
+@media only screen and (min-device-width: 1441px) and (max-device-width: 1540px) {
+}
+@media only screen and (min-device-width: 1541px) and (max-device-width: 1600px) {
+    
+}
+@media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+    .team_popup_para {
+        height: 200px;
+        line-height: 26px;
+    }
+    .team_popup_inner{
+        padding: 30px 20px;
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+    .react-responsive-modal-modal{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .team_popup_para {
+        height: 150px;
+        line-height: 26px;
+    }    
+    .linkedin_box {
+        height: 34px;
+        width: 34px;
+    }
+    .team_popup_inner{
+        padding: 20px 20px;
+    }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+
+    .team_popup_inner {
+        padding: 35px 25px;
+    }
+    .team_img {
+        display: none;
+    }
+    .team_popup_inner h4{
+        font-size: 16px;
+    }
+    .team_popup_para {
+        height: 300px;
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .linkedin_box {
+        height: 34px;
+        width: 34px;
+    }
+    .react-responsive-modal-modal {
+        width: 90%;
+        margin: 0px;
+    }
+}

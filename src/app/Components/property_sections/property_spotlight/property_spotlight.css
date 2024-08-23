@@ -1,0 +1,23 @@
+
+
+.property_spot_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+    
+    .property_spotlight{
+        height: 250px !important;
+    }
+
+    .property_spotlight .in_spot_col2{
+        order: 1;
+        height: 100% !important;
+    }
+
+    .property_list_sec button#pipeline_tabs-tab-tab1{
+        display: block;
+    }
+}

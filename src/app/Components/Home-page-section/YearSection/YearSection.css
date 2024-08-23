@@ -1,0 +1,200 @@
+.YearSection {
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+.item {
+  width: 100%;
+}
+.yr-hd {
+  text-transform: uppercase;
+  padding: 0;
+}
+.txt-color {
+  color: #be8233;
+}
+.bg-sec-clr h3 {
+  font-size: 32px;
+  font-weight: 300 !important;
+  line-height: 41.6px;
+}
+button.yr-btn {
+  background-color: #be8233;
+  padding: 20px 30px;
+  border-radius: 56px;
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  margin-top: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: background-color 1s;
+  /* background: linear-gradient(90deg, #8A6127, transparent) #BE8233; */
+}
+
+
+.num-cont-wdt {
+  background-color: #f4f4f4;
+  width: 31.33% !important;
+  height: 145px;
+}
+.num-section {
+  justify-content: center;
+  margin-top: 20px;
+  gap: 28px;
+}
+.num-txt {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #909090;
+}
+.gap-30 {
+  gap: 30px;
+}
+
+.cstmSe {
+  margin: auto !important;
+  display: flex;
+  justify-content: center;
+  /* justify-content: center;
+    align-items: center; */
+}
+
+.pd-top {
+  padding-top: 90px;
+}
+
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  .YearSection {
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+  }
+  .item {
+    height: auto;
+    width: 47% !important;
+    float: left;
+    padding: 10px;
+  }
+  .bg-sec-clr h3 {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+  }
+  .bg-sec-clr {
+    padding: 0;
+  }
+  .bg-sec-clr p{
+    margin: 25px 0px;
+  }
+  .gap-30 {
+    gap: 19px;
+  }
+
+  .bloc h1 {
+    font-size: 33px;
+    margin-bottom: 0px;
+    font-weight: 500 !important;
+    line-height: 40px;
+  }
+  .num-txt {
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+  .num-section img {
+    width: 33px;
+  }
+  .num-section {
+    gap: 10px;
+    margin: 0;
+  }
+  .pd-top {
+    padding-top: 50px;
+  }
+  .blocLast{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .button.yr-btn{
+    padding: 15px 23px !important;
+    font-size: 11px;
+  }
+}
+
+
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+  .YearSection {
+    padding-right: 40px !important;
+    padding-left: 40px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+  }
+  .bg-sec-clr h3 {
+    font-size: 26px;
+    font-weight: 300 !important;
+    line-height: 31.6px;
+  }
+  .num-cont-wdt {
+    background-color: #f4f4f4;
+    width: 321px !important;
+    height: 145px;
+  }
+}
+
+@media only screen and (min-device-width: 992px) and (max-device-width: 1199px) {
+  .YearSection {
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .item {
+    height: 125px;
+    width: 46% !important;
+    float: left;
+  }
+  .bg-sec-clr h3 {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 500;
+  }
+  .bg-sec-clr {
+    padding: 0;
+  }
+  .gap-30 {
+    gap: 19px;
+  }
+
+  .bloc h1 {
+    font-size: 40px;
+    margin-bottom: -10px;
+    font-weight: 500 !important;
+  }
+  .num-txt {
+    font-size: 25px;
+    margin-bottom: 0;
+  }
+  .num-section img {
+    width: 40px;
+  }
+  .num-section {
+    gap: 15px;
+  }
+  .pd-top {
+    padding-top: 50px;
+  }
+}
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1280px) {
+  .num-cont-wdt {
+    width: 23%;
+  }
+}
+@media only screen and (min-device-width: 1281px) and (max-device-width: 1369px) {
+  .num-cont-wdt {
+    width: 23%;
+  }
+}

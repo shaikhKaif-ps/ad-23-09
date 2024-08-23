@@ -1,0 +1,90 @@
+.NewsLetterSection{
+    background-color: #521B26;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    
+
+}
+.subs-txt{
+    color: #FFFF;
+    font-size: 30px ;
+    font-weight: 700 ;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding-top: 15px;
+}
+input.form-control {
+    background-color: #00000017;
+    border-radius: 56px;
+    padding: 15px;
+    border-left: 0px;
+}
+input.form-control:focus {
+    background-color: #00000017;
+    color: #FFFF;
+    border-right: none ;
+    z-index: auto ;
+}
+.subs-inpt .input-group-text{
+    background-color: #00000017;
+    border-radius: 56px;
+    border-right: 0px;
+    padding-right: 2px;
+    padding-left: 30px;
+}
+input.form-control::placeholder {
+    color: rgb(255 255 255 / 40%);
+    font-size: 16px;
+    font-weight: 300;
+}
+button.news-ltr-sub-btn{
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #BE8233;
+    border: 1px solid #BE8233;
+    border-radius: 56px;
+    padding: 10px 30px; 
+    z-index: 3;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.input-group.subs-inpt {
+    margin-left: 70px;
+    margin-right: -70px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+    .mob-blck{
+        display: block !important;
+    }
+    .subs-txt{
+        font-size: 35px !important;
+        font-weight: 300 !important;
+        padding-right: 145px;
+    }
+    .NewsLetterSection {
+        overflow: hidden !important;
+        padding-top: 60px;
+        padding-bottom: 60px;
+
+    }
+    .input-group.subs-inpt {
+       margin: 30px 0px 20px 0px;
+    }
+    button.news-ltr-sub-btn {
+        padding: 20px 30px;
+        width: 100%;
+    }
+    input.form-control {
+        padding: 17px;
+        padding-left: 10px;
+
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+    .subs-txt{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}

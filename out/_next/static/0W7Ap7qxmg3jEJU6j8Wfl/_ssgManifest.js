@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fmedia\u002F[videoPressRelease]","\u002Fproperties\u002F[property]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
